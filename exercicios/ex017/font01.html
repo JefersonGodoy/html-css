@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm = centímetro
+            mm = milímetro
+            in = polegada
+            px = pixel
+            pt = ponto
+            pc = paica
+            ponto e paica são utilizados para impressão no papel, não recomendado usar em telas
+
+            Medidas Relativas
+            em = relativa ao tamanho atual da fonte (letra M maiúscula)
+            ex = relativa a altura x de uma fonte
+            rem = relativo ao root, fonte que está configurada no body
+            vw = relativa a largura da view port (largua da tela em porcentagem)
+            vh = relativa a altura da view port (altura da tela em porcentagem)
+            e também podemos trabalhar com %
+
+            */
+
+            /*
+            16px geralmente é = 1em
+            */
+            font-size: 1em;
+            /* lighter, normal, bold, bolder */
+            /* tambem podemos usar a escala numérica que vai de 100 a 900 */
+        }
+        h1 {
+           font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontres</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quas deserunt? Modi, voluptate assumenda beatae tempore distinctio sint illum animi fuga repudiandae sequi tempora aliquid architecto, quasi, cumque perspiciatis veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae laudantium accusantium accusamus dolorum maxime consectetur repellendus magnam ducimus blanditiis necessitatibus? Id nobis vel illo voluptas perferendis facere et, doloribus voluptate.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quisquam sint, possimus quos ullam quae veniam nam error doloribus quidem, repellat doloremque. Sit distinctio vitae provident consequuntur porro quibusdam rerum!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vero qui, labore facilis placeat accusamus id aperiam iure ut illum tempora, delectus laudantium commodi distinctio corporis recusandae praesentium impedit officiis.</p>
+</body>
+</html>
